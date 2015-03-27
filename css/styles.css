@@ -1,0 +1,255 @@
+
+body {
+	font-family: Helvica, Arial, sans-serif;
+	color: #dddcc5;
+	font-size: 1em;
+	line-height: 1.2em;
+	background: url("../images/presence.png") repeat-x,  url("../images/facebook-11.png")no-repeat right bottom #1d2326;
+	}
+
+	
+	
+	
+	/* ==========   primary container 	============= */
+
+.container {
+	margin: 0 auto;
+	width: 90%;
+	}
+
+
+
+			/*---- Headings ----*/
+	
+h1 { 
+	font-family: "Architects Daughter", Georgia, sans-serif;
+	font-size: 3.5em;
+	font-weight: normal;
+	font-style: oblique;
+	color: #dddcc5;
+	margin: 5% auto;
+	line-height: 1.2em;
+	text-shadow: 3px 3px #611427;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.5em;	
+	}
+	
+h2 {
+	font-family: "Shadows Into Light", Georgia, sans-serif;
+	font-size: 1.8em;
+	color: #611427;
+	text-shadow: 1px 1px #958976;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	}
+
+h3 {
+	font-family: "Shadows Into Light", Georgia, sans-serif;
+	font-size: 1.8em;
+	color: #958976;
+	text-shadow: 2px 2px #611427;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	}
+	
+ 
+	
+			/*-- Link Navigation Decoration --*/
+		
+#navigation {
+	width: 60%;
+	font-size: 1.5em;
+	border-top: 2px solid #611427;
+	border-bottom: 1px solid #611427;
+	padding: 30px;
+	line-height: 1.4em;
+	text-align: center;
+	margin: 3% auto;
+	background: linear-gradient(to bottom,  rgba(149,149,149,1) 0%,rgba(13,13,13,1) 25%,rgba(1,1,1,1) 50%,rgba(10,10,10,1) 53%,rgba(78,78,78,1) 76%,rgba(56,56,56,1) 87%,rgba(27,27,27,1) 100%) 
+	}
+	
+	
+#navigation > ul > li {
+	padding-left: 30px;
+    display: inline;
+	list-style-type: none;
+	}
+	
+a:link {
+	color: #0000ff;
+	text-decoration: none;
+	} 
+	
+a:visited {
+	color: #b9506c;
+	text-decoration: none;
+	}
+	
+a:hover {
+	color: #890125;
+	text-decoration: underline;
+	}
+	
+a:active {
+	color: #bdb3ff;
+	text-decoration: none;
+	}
+	
+	
+	
+			/*---- List Decoration ----*/
+	
+ul {
+	list-style-type: circle;
+	}
+	
+	
+	
+			/*-- Image Decoration --*/
+	
+img {
+	width: 300px;
+	height: auto;
+  	border-radius: 10px 10px 10px 10px;
+  	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.75);
+  	background: #353535;
+  	padding: 18px;
+  	border: 2px solid #454344;
+  	}
+  	
+  	
+  	
+  	
+  			/*-- Floats --*/
+  			
+
+.left_column {
+  	width: 32%;
+  	float: left;
+  	margin: 8% 2% 2%;
+  	padding: 2%;
+  	}
+  	
+.right_column {
+	width: 52%;
+	float: left;
+	margin: 8% 2% 2%;
+	padding: 2% ;
+	}
+  	
+
+			/*--- Table ---*/
+#table1{
+	clear: both
+	}
+
+table {
+	border-collapse: collapse;
+	box-shadow: 2px 3px rgba(195, 88, 88, 0.75);
+  	background: #353535;
+	}
+	
+td, th {
+	font-family: "Architects Daughter", Georgia, sans-serif;
+	width: 150px;
+	text-align: center;
+	letter-spacing: 0.15em;
+	margin: 0;
+	padding: 5px;
+  	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.75);
+  	padding: 18px;
+  	border: 1px solid #611427;
+  	}
+	
+th {
+	font-size: 1.5em;
+	background-color: #26080D;
+	color: #6dabf2;	
+	line-height: 1.4em;
+	text-transform: capitalize;
+	}
+			
+td {
+	font-size: 1.2em;
+	font-style: italic;
+	}
+
+.even {
+	background: #999;
+	}
+
+tr:hover {
+	background-color: #263248;
+	}
+	
+
+
+	
+			/*-- Resources --*/
+
+ 
+footer {
+	
+ 	margin: 2%;
+ 	padding: 10px;
+ 	}
+	
+  	
+  	
+  		/*---- F O R M S ----*/
+  	
+#signin {
+  	border: none;
+  	margin: 10px;  	
+  	padding: 5px;
+  	background-color: #999;
+	}  	
+
+label{
+  	float:left;
+  	width:200px;
+  	padding-right:20px;
+  	}
+  	
+.clear {
+	clear:both;
+	}
+  	
+input {
+	font-size:90%;
+	color: #000;
+	background: linear-gradient(#dbd0f0, #b49ee0);
+	border: 1px solid #dddddd;
+	padding: 2px 2px 2px 5px;
+	margin-bottom:10px;
+	}
+
+input:hover {
+	background: #842a36;
+	background: linear-gradient(#b49ee0, #dbd0f0);
+	}
+	
+input:focus {
+	background-color: #2a3684
+	}
+	
+
+form {
+	margin: 20px 0;
+	width:50%;
+	}
+	
+textarea {
+	overflow: auto;
+	resize: vertical;
+	width:100%;
+	}
+  	
+  	
+  	
+  	/*  Bottom--- <(^_^)> ---Bottom  */
+
+	
